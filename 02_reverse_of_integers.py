@@ -7,7 +7,7 @@ def intreverse(n):
   return(ans)
 
 
-intreverse(567)
+intreverse(568)
 765
 intreverse(656)
 656
