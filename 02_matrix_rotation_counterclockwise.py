@@ -1,10 +1,10 @@
 
-def leftrotate (mat) :
+def leftrotate (m) :
     q=[ ]
-    for i in range (len(mat)) :
+    for i in range (len(m)) :
         s=[ ]
-        for j in range (len(mat[i] )) :
-            s.append(mat[j] [len(mat)-1-i])
+        for j in range (len(m[i] )) :
+            s.append(m[j] [len(m)-1-i])
         q.append(s)
     return(q)
   
