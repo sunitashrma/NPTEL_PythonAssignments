@@ -10,12 +10,4 @@ def counthv(l) :
                 valley_count += 1
         return ([hill_count, valley_count])
 
-    
-counthv([1,2,1,2,3,2,1])
-[2, 1]
-counthv([1,2,3,1])
-[1, 0]
-counthv([1,2,1,2,3,2,1])
-[2, 1]
-counthv([3,1,2,3])
-[0, 1]
+
