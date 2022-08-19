@@ -11,7 +11,3 @@ def sumsquare (l):
     l= [odd, even]
     return (l)
 
-sumsquare([2,4,6])
-[0, 56]
-sumsquare([-1,-2,3,7])
-[59, 4]
