@@ -5,6 +5,3 @@ def intreverse(n):
     (d,n) = (n%10,n//10)
     ans = 10*ans + d
   return(ans)
-
-
-
