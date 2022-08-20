@@ -7,4 +7,5 @@ def leftrotate (m) :
             s.append(m[j] [len(m)-1-i])
         q.append(s)
     return(q)
-  
+
+
