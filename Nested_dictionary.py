@@ -14,4 +14,6 @@ print (score)
 KEYS = score.keys ()
 print (KEYS)
 
+score ["Test 1"] ["Dhawan"] = 90
+print ("New value of score is :" ,score ,'\n')
 
