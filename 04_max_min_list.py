@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 
 def frequency (l):
     SET=set(l)
@@ -18,3 +21,9 @@ def frequency (l):
     min_list.sort( )
     max_list.sort( )
     return (min_list,max_list)
+l= [10,4,10,5,10,5,5]
+#freq_list = frequency (l)
+print(frequency(l))
+
+end_time=time.time()-start_time
+print(" ( %s ) sec"%end_time)
